@@ -20,9 +20,9 @@ n개의 작업, 각 작업의 수행 시간, m개의 동일한 기계가 주어�
 <img width="535" alt="T =증명" src="https://user-images.githubusercontent.com/81741589/118929876-083b7980-b980-11eb-90de-4581aed4e3d5.png">
 
 # Brute Force, Greedy 방식의 비교
-최적햬 : Brute Force
-근사해 : Greedy
-근사비율 : 근사해 / 최적해
+- 최적햬 : Brute Force
+- 근사해 : Greedy
+- 근사비율 : 근사해 / 최적해
 
 ![CamScanner 05-20-2021 17 21](https://user-images.githubusercontent.com/81741589/118960369-2dd77b80-b99e-11eb-9260-235799180087.jpg)
 
