@@ -41,12 +41,12 @@ return 가장 늦은 작업 종료 시간
 - 근사해는 최적해의 2배를 넘지 않는다.
 
 ### T <= T'를 이용한 증명
-<img width="535" alt="T =증명" src="https://user-images.githubusercontent.com/81741589/118929876-083b7980-b980-11eb-90de-4581aed4e3d5.png">
+<img width="604" alt="작업스케줄링" src="https://user-images.githubusercontent.com/81741589/118929951-1c7f7680-b980-11eb-8f9f-9c5cce5052a8.png">
 
 - T'은 작업 i를 제외한 평균 종료 시간이다. 따라서 작업 i가 배정된 기계를 제외한 모든 기계에 배정된 작업은 적어도 T 이후에 종료되기 때문에 T <= T'이 된다.
 - T<=T' 관계를 이용한 OPT' <= 2xOPT 증명
 
 <img width="604" alt="작업스케줄링" src="https://user-images.githubusercontent.com/81741589/118929951-1c7f7680-b980-11eb-8f9f-9c5cce5052a8.png">
 
-
+<img width="535" alt="T =증명" src="https://user-images.githubusercontent.com/81741589/118929876-083b7980-b980-11eb-90de-4581aed4e3d5.png">
 ## Brute Force, Greedy 방식의 비교
